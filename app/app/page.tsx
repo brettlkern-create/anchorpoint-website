@@ -1,4 +1,4 @@
-import Website from "../anchor_point_security_group_website";
+import Website from "../components/Website";
 
 export default function Page() {
   return <Website />;
