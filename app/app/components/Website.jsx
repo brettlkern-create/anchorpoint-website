@@ -1,7 +1,20 @@
 import React from "react";
-import { Card, CardContent } from "@/components/ui/card";
-import { Button } from "@/components/ui/button";
-import { ShieldCheck, Building2, Hotel, Users, Phone, Mail } from "lucide-react";
+const Card = ({ children }) => (
+  <div className="rounded-2xl shadow bg-white">{children}</div>
+);
+
+const CardContent = ({ children }) => (
+  <div className="p-6 text-center">{children}</div>
+);
+
+const Button = ({ children, ...props }) => (
+  <button
+    className="bg-black text-white px-6 py-3 rounded-xl hover:opacity-90"
+    {...props}
+  >
+    {children}
+  </button>
+);import { ShieldCheck, Building2, Hotel, Users, Phone, Mail } from "lucide-react";
 
 export default function Website() {
   return (
