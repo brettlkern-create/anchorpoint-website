@@ -1,5 +1,5 @@
 "use client";
-);import { ShieldCheck, Building2, Hotel, Users, Phone, Mail } from "lucide-react";
+import { ShieldCheck, Building2, Hotel, Users, Phone, Mail } from "lucide-react";
 const Card = ({ children }) => (
   <div className="rounded-2xl shadow bg-white">{children}</div>
 );
