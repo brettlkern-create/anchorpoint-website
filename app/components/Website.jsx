@@ -15,7 +15,7 @@ const Button = ({ children, ...props }) => (
   >
     {children}
   </button>
-
+);
 export default function Website() {
   return (
     <div className="min-h-screen bg-gray-50 text-gray-900">
