@@ -1,4 +1,4 @@
-import React from "react";
+"use client";
 const Card = ({ children }) => (
   <div className="rounded-2xl shadow bg-white">{children}</div>
 );
